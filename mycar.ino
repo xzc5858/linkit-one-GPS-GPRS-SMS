@@ -8,7 +8,7 @@
 char buff[256];
 //接收到短信后，发送GPS系统到指定服务器
 gpsSentenceInfoStruct info;
-char server[] = "120.27.41.213";
+char server[] = "";
 int port = 3000;
 gpsSentenceInfoStruct gpsInfo;
 LGPRSClient client;
